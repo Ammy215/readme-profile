@@ -113,11 +113,8 @@ Python • Linux • Networking • Network Security • SOC • Threat Detectio
 
 <div align="center">
 
-![Ammar's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ammy215&show_icons=true&theme=radical&hide_border=true#gh-dark-mode-only)
-![Ammar's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ammy215&show_icons=true&theme=default&hide_border=true#gh-light-mode-only)
-
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ammy215&layout=compact&theme=radical&hide_border=true#gh-dark-mode-only)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ammy215&layout=compact&theme=default&hide_border=true#gh-light-mode-only)
+![Ammar's GitHub metrics](assets/github-metrics-dark.svg#gh-dark-mode-only)
+![Ammar's GitHub metrics](assets/github-metrics-light.svg#gh-light-mode-only)
 
 </div>
 
