@@ -168,6 +168,7 @@ Python • Linux • Networking • Network Security • SOC • Threat Detectio
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ammar-badlawala-a38ba739a/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ammar.badlawala@gmail.com)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=red)](https://tryhackme.com/p/ammar.badlawala)
 
 <!-- Open to opportunities line — flagged for approval, see chat before pushing -->
 📡 Open to entry-level SOC / detection engineering opportunities.
