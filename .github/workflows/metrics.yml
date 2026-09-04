@@ -19,6 +19,8 @@ jobs:
           user: Ammy215
           template: classic
           base: header, activity, community, repositories, metadata
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
           config_timezone: UTC
           filename: assets/github-metrics.svg
           committer_message: "chore: update GitHub metrics card [skip ci]"
