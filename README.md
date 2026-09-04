@@ -155,8 +155,7 @@ Python • Linux • Networking • Network Security • SOC • Threat Detectio
 
 <div align="center">
 
-![Ammar's GitHub metrics](assets/github-metrics-dark.svg#gh-dark-mode-only)
-![Ammar's GitHub metrics](assets/github-metrics-light.svg#gh-light-mode-only)
+![Ammar's GitHub metrics](assets/github-metrics.svg)
 
 </div>
 
