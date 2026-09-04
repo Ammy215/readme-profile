@@ -2,19 +2,11 @@
 
 <img src="assets/pixel-avatar.svg" alt="Pixel-art illustration of a security engineer at night, seated at a three-monitor workstation. The center screen shows a green terminal/log stream, the left screen a blue network topology graph, and the right screen an amber security dashboard with bar charts and a gauge." width="640" />
 
-```
- █████╗ ███╗   ███╗███╗   ███╗ █████╗ ██████╗ 
-██╔══██╗████╗ ████║████╗ ████║██╔══██╗██╔══██╗
-███████║██╔████╔██║██╔████╔██║███████║██████╔╝
-██╔══██║██║╚██╔╝██║██║╚██╔╝██║██╔══██║██╔══██╗
-██║  ██║██║ ╚═╝ ██║██║ ╚═╝ ██║██║  ██║██║  ██║
-╚═╝  ╚═╝╚═╝     ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
-```
+<img src="assets/wordmark.svg" alt="AMMAR" width="380" />
 
-### 👋 Hey, I'm Ammar.
-### Cybersecurity × Networking × AI
+<img src="assets/terminal-boot.svg" alt="Mock terminal boot sequence: whoami, then &quot;ammar — cybersecurity x networking x AI&quot;, then a status check, then &quot;building, breaking, automating&quot;" width="560" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1400&color=39D97A&center=true&vCenter=true&width=600&lines=I+build+things+to+understand+them.;I+break+things+to+learn+how+they+fail.;I+automate+things+to+make+them+better.)](https://github.com/Ammy215)
+### 👋 Hey, I'm Ammar — Cybersecurity × Networking × AI
 
 </div>
 
