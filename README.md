@@ -98,6 +98,7 @@ File intelligence platform: hashing, entropy analysis, YARA matching, and risk s
 
 These are early-stage and intentionally not in the featured list above yet:
 
+- **[Threat-Hunter-Dashboard](https://github.com/Ammy215/Threat-Hunter-Dashboard)** — ThreatHunter Intelligence Platform &nbsp;🟡 In Progress *(repo currently private)* — Next.js (App Router, TS) frontend, Express + TypeScript backend, Supabase (Postgres + Auth + RLS), Zod validation. IOC lookups (IP/domain/hash/URL) fanned out across AbuseIPDB, AlienVault OTX, IPInfo, VirusTotal, and NIST NVD, plus a Groq-powered AI assistant for querying investigation history. 89 automated tests (unit/integration/E2E) and a completed adversarial security-testing pass (8 findings, each fixed and retested). All 16 build phases are complete; currently in final pre-deployment checks (an IPInfo key-rotation issue, a backend production-start bug, mobile responsive fixes, and a Resend/Supabase SMTP issue) targeting Render (backend) + Vercel (frontend).
 - **[Mini-SIEM](https://github.com/Ammy215/Mini-SIEM)** &nbsp;🟡 In Progress — FastAPI + PostgreSQL SIEM with its own JWT + bcrypt + RBAC auth, React 18 + Vite + Tailwind + shadcn/ui + Recharts frontend. Per its own README: early, "Phase 0, repo hygiene."
 - **[Network-Anomaly-Detector](https://github.com/Ammy215/Network-Anomaly-Detector)** — NetSentinel &nbsp;🔵 Planned — FastAPI + React + Vite + Tailwind + Supabase (Postgres). Per its own README, nothing functional exists yet — this is a scaffold for what's next.
 
