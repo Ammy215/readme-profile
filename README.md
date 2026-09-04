@@ -26,6 +26,24 @@ I'm a B.Sc. Information Technology graduate building my way into cybersecurity t
 
 ---
 
+## 🎓 Certifications
+
+**Cisco**
+- Endpoint Security
+- Network Defense
+- Networking Basics
+- Introduction to Cybersecurity
+
+**Coursera**
+- AI For Everyone
+- Launching into Machine Learning
+- Introduction to AI and Machine Learning on Google Cloud
+- Getting Started with Linux Terminal
+- Foundations of Cybersecurity
+- Introduction to Networking and Cloud Computing
+
+---
+
 ## 🚀 Featured Projects
 
 ### 🛡️ [phishguard-ai](https://github.com/Ammy215/phishguard-ai) &nbsp;🟢 Completed
