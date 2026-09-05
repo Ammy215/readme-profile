@@ -179,7 +179,7 @@ Python • Linux • Networking • Network Security • SOC • Threat Detectio
 
 ---
 
-## ⚔️ Boss Fight
+## ⚔️ Kill Chain
 
 <div align="center">
 
