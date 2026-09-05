@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/pixel-avatar.svg" alt="Pixel-art illustration of a security engineer at night, seated at a three-monitor workstation. The center screen shows a green terminal/log stream, the left screen a blue network topology graph, and the right screen an amber security dashboard with bar charts and a gauge." width="640" />
+<img src="assets/pixel-avatar.svg" alt="Pixel-art illustration of a three-monitor security workstation at night. The center screen shows a green terminal/log stream, the left screen a blue network topology graph, and the right screen an amber security dashboard with bar charts and a gauge." width="640" />
 
 <img src="assets/wordmark.svg" alt="AMMAR" width="380" />
 
