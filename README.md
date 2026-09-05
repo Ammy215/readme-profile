@@ -179,13 +179,13 @@ Python • Linux • Networking • Network Security • SOC • Threat Detectio
 
 ---
 
-## 🗡️ Off-Duty
+## ⚔️ Boss Fight
 
 <div align="center">
 
-<img src="assets/character-mascot.svg" alt="A voxel-art character illustration of Ammar as a hooded rogue with twin daggers, standing on a small stone platform, gently floating in place under a soft green spotlight." width="260" />
+<img src="assets/character-battle.svg" alt="A voxel-art illustration in an Attack on Titan style: a small hooded rogue character labeled AMMAR faces off on the left against two much larger Titan monsters looming on the right, labeled Phishing Titan and Ransomware Titan, under a green and red glow." width="700" />
 
-Same guy, different threat model.
+What SOC work actually feels like some days.
 
 </div>
 
