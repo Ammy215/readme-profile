@@ -179,6 +179,18 @@ Python • Linux • Networking • Network Security • SOC • Threat Detectio
 
 ---
 
+## 🗡️ Off-Duty
+
+<div align="center">
+
+<img src="assets/character-mascot.svg" alt="A voxel-art character illustration of Ammar as a hooded rogue with twin daggers, standing on a small stone platform, gently floating in place under a soft green spotlight." width="260" />
+
+Same guy, different threat model.
+
+</div>
+
+---
+
 ## 🤝 Connect
 
 <div align="center">
