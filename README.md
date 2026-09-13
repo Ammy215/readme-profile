@@ -50,8 +50,12 @@ I'm a B.Sc. Information Technology graduate building my way into cybersecurity t
 Flask backend combining a Random Forest ML model with a 16-rule heuristic engine, an explainable-AI chat endpoint, and live threat intel from Google Safe Browsing, PhishTank, and URLHaus. Ships with a React 19 + TypeScript + Radix UI dashboard and a Manifest V3 Chrome extension.
 My most complete and functional repo end-to-end.
 
-### 🍯 [Honeypot-system](https://github.com/Ammy215/Honeypot-system) — HoneyShield Intelligence Platform &nbsp;🟡 In Progress
+### 🍯 [Honeypot-system](https://github.com/Ammy215/Honeypot-system) — HoneyShield Intelligence Platform &nbsp;🟢 Completed
 Multi-protocol honeypot (SSH/FTP/HTTP/Telnet) built on asyncio + raw SQL, with threat-intel enrichment and an AI-assisted SOC dashboard. The HTTP honeypot is **actually running in production**; SSH/FTP/Telnet are built and tested but not yet deployed (a PaaS socket limitation, not a code gap).
+
+### 🕵️ [Threat-Hunter-Dashboard](https://github.com/Ammy215/Threat-Hunter-Dashboard) — ThreatHunter Intelligence Platform &nbsp;🟢 Completed
+Next.js (App Router, TS) frontend, Express + TypeScript backend, Supabase (Postgres + Auth + RLS), Zod validation. IOC lookups (IP/domain/hash/URL) fanned out across AbuseIPDB, AlienVault OTX, IPInfo, VirusTotal, and NIST NVD, plus a Groq-powered AI assistant for querying investigation history. 89 automated tests (unit/integration/E2E) and a completed adversarial security-testing pass (8 findings, each fixed and retested).
+**[Live demo →](https://threat-hunter-dashboard.vercel.app)** — deployed on Render (backend) + Vercel (frontend). Repo stays private — happy to walk through the code or share access on request.
 
 ### 📊 [Intelligent-Log-Analyzer](https://github.com/Ammy215/Intelligent-Log-Analyzer) &nbsp;🟡 In Progress
 Async FastAPI + Motor/MongoDB + Pydantic v2 backend with a React 18 + Vite + Tailwind + Radix frontend, OpenAI API integration, and threat intel via AbuseIPDB, OTX, and geolocation lookups. Functional today; mid-rebuild toward a multi-tenant enterprise version with auth, RBAC, and billing.
@@ -146,20 +150,10 @@ Watches network traffic, learns a baseline for "normal," flags what doesn't fit,
 
 ## 🟡 Near Launch
 
-### 🕵️ [Threat-Hunter-Dashboard](https://github.com/Ammy215/Threat-Hunter-Dashboard) — ThreatHunter Intelligence Platform &nbsp;🟡 Near Launch
-Next.js (App Router, TS) frontend, Express + TypeScript backend, Supabase (Postgres + Auth + RLS), Zod validation. IOC lookups (IP/domain/hash/URL) fanned out across AbuseIPDB, AlienVault OTX, IPInfo, VirusTotal, and NIST NVD, plus a Groq-powered AI assistant for querying investigation history. 89 automated tests (unit/integration/E2E) and a completed adversarial security-testing pass (8 findings, each fixed and retested).
+### 🛡️ [Mini-SIEM](https://github.com/Ammy215/Mini-SIEM) &nbsp;🟡 Near Launch
+FastAPI + PostgreSQL SIEM: log collection, normalization into one schema, a threshold + signature detection engine tagged with MITRE ATT&CK technique IDs, and alerts/incidents on a React 18 + Vite + Tailwind + shadcn/ui + Recharts dashboard. Own JWT (access + refresh) + bcrypt + RBAC auth, AbuseIPDB/OTX enrichment feeding alert severity, a gated self-attack lab that proves detection end to end, hardening pass + full test suite + CI, and a documented adversarial-testing pass (Unicode bidi spoofing and other findings logged).
 
-All 16 build phases are complete; currently in final pre-deployment checks (an IPInfo key-rotation issue, a backend production-start bug, mobile responsive fixes, and a Resend/Supabase SMTP issue) targeting Render (backend) + Vercel (frontend).
-
-Private repo — happy to walk through the code or share access on request.
-
----
-
-## 🔵 Currently Building
-
-These are early-stage and intentionally not in the featured list above yet:
-
-- **[Mini-SIEM](https://github.com/Ammy215/Mini-SIEM)** &nbsp;🟡 In Progress — FastAPI + PostgreSQL SIEM with its own JWT + bcrypt + RBAC auth, React 18 + Vite + Tailwind + shadcn/ui + Recharts frontend. Per its own README: early, "Phase 0, repo hygiene."
+Its own README status line still reads stale ("Phase 0") from early on — commit history shows substantially more built since. No live deployment yet.
 
 ---
 
