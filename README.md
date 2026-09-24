@@ -67,6 +67,10 @@ File intelligence platform: hashing, entropy analysis, YARA matching, and risk s
 Watches network traffic, learns a baseline for "normal," flags what doesn't fit, and uses RAG-grounded AI (ChromaDB + LangGraph + Groq) to explain why and suggest next steps for an analyst — not just a raw anomaly score. FastAPI + scikit-learn backend with Scapy/PyShark packet capture, Supabase (Postgres) for auth/RBAC, React 19 + Vite + Tailwind frontend.
 **[Live demo →](https://network-anomaly-detector-inky.vercel.app)** — dashboard, PCAP upload/analysis, ML scoring, AI investigation, and threat-intel enrichment are all live and free. Live packet capture is local-only (free hosting doesn't grant raw-socket access) — see the repo's README for running that piece locally.
 
+### 🛡️ [Mini-SIEM](https://github.com/Ammy215/Mini-SIEM) &nbsp;🟢 Completed
+A SIEM built from scratch: ingests logs from servers, web servers, firewalls and Windows hosts (11 auto-detected formats), normalizes them into one event shape in PostgreSQL, runs 15 threshold/signature/sequence detection rules tagged with MITRE ATT&CK technique IDs, and correlates an attacker's alerts into a single incident. FastAPI backend, own JWT + bcrypt + RBAC auth, AbuseIPDB/OTX enrichment, React 18 + Vite + Tailwind + shadcn/ui + Recharts dashboard.
+**[Live demo →](https://mini-siem-five.vercel.app)** — deployed on Vercel + Render + Neon (free tiers). Accounts are admin-approved, and the first request after a quiet spell can take 30–50 seconds while the backend wakes.
+
 ---
 
 ## 🧰 Tech Stack
@@ -145,15 +149,6 @@ Watches network traffic, learns a baseline for "normal," flags what doesn't fit,
 ![Render](https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![Resend](https://img.shields.io/badge/Resend-000000?style=for-the-badge)
-
----
-
-## 🟡 Near Launch
-
-### 🛡️ [Mini-SIEM](https://github.com/Ammy215/Mini-SIEM) &nbsp;🟡 Near Launch
-FastAPI + PostgreSQL SIEM: log collection, normalization into one schema, a threshold + signature detection engine tagged with MITRE ATT&CK technique IDs, and alerts/incidents on a React 18 + Vite + Tailwind + shadcn/ui + Recharts dashboard. Own JWT (access + refresh) + bcrypt + RBAC auth, AbuseIPDB/OTX enrichment feeding alert severity, a gated self-attack lab that proves detection end to end, hardening pass + full test suite + CI, and a documented adversarial-testing pass (Unicode bidi spoofing and other findings logged).
-
-Its own README status line still reads stale ("Phase 0") from early on — commit history shows substantially more built since. No live deployment yet.
 
 ---
 
